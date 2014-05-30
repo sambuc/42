@@ -86,7 +86,7 @@ LINKS =  (
 
 # Social widget
 SOCIAL = (
-          #('facebook', 'https://www.facebook.com/lionel.sambuc'),
+          ('facebook', 'https://www.facebook.com/lionel.sambuc'),
           ('linkedin', 'https://www.linkedin.com/in/lionelsambuc'),
           ('google+', 'https://plus.google.com/113198308632164585389/posts'),
           ('github', 'http://github.com/sambuc'),
