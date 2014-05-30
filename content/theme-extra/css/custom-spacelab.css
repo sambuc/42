@@ -1,0 +1,57 @@
+.gallery_table {
+	width: 100%;
+	text-align: center;
+}
+
+.gallery_table tr, .gallery_table td {
+	margin: 1em;
+	padding: 1em;
+	vertical-align: top;
+}
+
+.gallery_table tr {
+	border-top: 1px solid #ccc;
+}
+
+.fa-atom-square:before {
+    content: "\f143"
+}
+
+.fa-atom:before {
+    content: "\f09e"
+}
+
+.linenos {
+	width: 5em;
+	text-align: right;
+}
+
+.highlighttable .code {
+	width: 80em;
+}
+
+.row a:hover {
+	color: #317eac !important;
+}
+
+.entry-content a {
+	border-bottom: 1px solid #666;
+}
+
+.entry-content a.cboxElement {
+	border-bottom: none;
+}
+
+.cboxElement img {
+	padding: 2px;
+	margin: 2px;
+	border: 1px solid #fff;
+}
+
+.cboxElement img:hover {
+	border: 1px solid #317eac;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #317eac;
+}
