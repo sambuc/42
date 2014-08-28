@@ -13,6 +13,27 @@
 	border-top: 1px solid #ccc;
 }
 
+table .layout {
+	width: 100%;
+}
+
+.layout, td .layout, tr .layout {
+	border: none;
+	text-align: center;
+	vertical-align: top;
+}
+
+table .exif_info {
+	width: 100%;
+}
+
+.exif_info td, .exif_info th {
+	vertical-align: top;
+	margin: 0em;
+	padding: 0em;
+	padding-left: 0.5em;
+}
+
 .fa-atom-square:before {
     content: "\f143"
 }
@@ -29,15 +50,12 @@
 .highlighttable .code {
 	width: 80em;
 }
+
 strong {
 	color: #fff;
 }
-/*blockquote {
-	color: #d0d0d0;
-	background-color: #202020;
-	border-left: 0em none #000;
-}*/
-a:hover {
+
+.row a:hover {
 	color: #fff !important;
 }
 

@@ -41,8 +41,9 @@ COLORBOX_PARAMS = 'transition:"elastic"'
 #GITHUB_SHOW_USER_LINK = True
 
 DEFAULT_PAGINATION = 10
-GALLERY_IMG_PER_ROW = 5
+GALLERY_IMG_PER_ROW = 3
 #RELATED_POSTS_MAX = 5
+#EXIF_INFO_DEFAULT = False
 BOOTSTRAP_NAVBAR_INVERSE = True
 
 DISPLAY_BREADCRUMBS = True
@@ -62,7 +63,7 @@ PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 
 # Plugins used
 PLUGIN_PATH = '../pelican-plugins'
-PLUGINS = ['related_posts', 'gallery']
+PLUGINS = ['related_posts', 'gallery', 'exif_info']
 
 # Main Settings
 TIMEZONE = 'Europe/Amsterdam'
