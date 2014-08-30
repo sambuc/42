@@ -1,45 +1,9 @@
-.gallery_table {
-	width: 100%;
-	text-align: center;
-}
-
-.gallery_table tr, .gallery_table td {
-	margin: 1em;
-	padding: 1em;
-	vertical-align: top;
-}
-
-.gallery_table tr {
-	border-top: 1px solid #ccc;
-}
-
-table .layout {
-	width: 100%;
-}
-
-.layout, td .layout, tr .layout {
-	border: none;
-	text-align: center;
-	vertical-align: top;
-}
-
-table .exif_info {
-	width: 100%;
-}
-
-.exif_info td, .exif_info th {
-	vertical-align: top;
-	margin: 0em;
-	padding: 0em;
-	padding-left: 0.5em;
-}
-
 .fa-atom-square:before {
-    content: "\f143"
+	content: "\f143"
 }
 
 .fa-atom:before {
-    content: "\f09e"
+	content: "\f09e"
 }
 
 .linenos {
@@ -53,6 +17,10 @@ table .exif_info {
 
 .row a:hover {
 	color: #317eac !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #317eac;
 }
 
 .entry-content a {
@@ -73,6 +41,49 @@ table .exif_info {
 	border: 1px solid #317eac;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	color: #317eac;
+table.exif_info {
+	width: 100%;
+	margin-bottom: 1em;
+	background-color: #fff;
+}
+
+.exif_info tr {
+	border-top: 1px solid #ccc;
+}
+
+.exif_info td, .exif_info th {
+	vertical-align: top;
+	margin: 0em;
+	padding: 0em;
+	padding-left: 0.5em;
+}
+
+#gallery {
+	text-align: center;
+	width: 100%;
+	padding-left: 2em;
+}
+
+.gallery-element {
+	float: left;
+}
+
+.gallery-element > div {
+	overflow: hidden;
+	height: 20em;
+	text-align: center;
+	padding: 1em;
+	width: 13em;
+	border-top: 1px solid #ccc;
+}
+
+.picture-title {
+	width: 100%;
+	padding-top: 0.2em ;
+	color: #fff;
+	weight: bold;
+}
+
+.elem_2012_Tour > div {
+	height: 30em;
 }
